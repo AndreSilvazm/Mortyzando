@@ -1,0 +1,144 @@
+.All-Content{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Espec{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.Container-content{
+
+    width: 25%;
+    word-wrap: break-word;
+    height: 400px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    transition: 2s ease-in linear;
+    
+    
+}
+
+img{
+
+    width: 90%;
+    border: solid 2px black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+img:hover{
+
+    transform: scale(1.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+
+    text-transform: uppercase;
+}
+
+
+.Avançar_Voltar{
+
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 07%;
+    
+}
+
+.Button-Section{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+
+.AvançarBTN, .VoltarBTN{
+
+    border: none;
+    margin-top: 1.5%;
+    border-radius: 5px;
+    background-color: rgba(24, 23, 23, 0.555);
+    color: white;
+    width: 20%;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+}
+
+.SeeMore{
+
+    width: 30%;
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+}
+
+.SeeMoreBTN{
+
+    border: none;
+    background-color: rgba(24, 23, 23, 0.555);
+    border-radius: 5px;
+    width: 100%;
+    border-bottom: solid 1px white;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.Personagem-Section{
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(149deg, rgba(255, 255, 0, 1) 0%, rgba(130, 255, 91, 1) 0%, rgba(130, 255, 91, 1) 0%, rgba(104, 75, 135, 1) 83%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(149deg, rgba(255, 255, 0, 1) 0%, rgba(130, 255, 91, 1) 0%, rgba(130, 255, 91, 1) 0%, rgba(104, 75, 135, 1) 83%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(149deg, rgba(255, 255, 0, 1) 0%, rgba(130, 255, 91, 1) 0%, rgba(130, 255, 91, 1) 0%, rgba(104, 75, 135, 1) 83%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#684B87', endColorstr='#FFFF00', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(149deg, rgba(255, 255, 0, 1) 0%, rgba(130, 255, 91, 1) 0%, rgba(130, 255, 91, 1) 0%, rgba(104, 75, 135, 1) 83%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(149deg, rgba(255, 255, 0, 1) 0%, rgba(130, 255, 91, 1) 0%, rgba(130, 255, 91, 1) 0%, rgba(104, 75, 135, 1) 83%);
+}
+
+/*PARTE RESPONSIVA*/
+
+@media screen and (max-width: 900px) {
+
+    .Container-content{
+
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .Container-content{
+
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .Container-content{
+        
+        width: 100%;
+    }
+}

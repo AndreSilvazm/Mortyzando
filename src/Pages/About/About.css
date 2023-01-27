@@ -1,0 +1,56 @@
+.About-Container{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../Midias/1075646.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+
+
+}
+
+.About-content{
+
+    width: 80%;
+    height: 400px;
+    text-align: center;
+    color: white;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.29);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.2px);
+    -webkit-backdrop-filter: blur(3.2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+        
+}
+
+.About-content h1{
+
+    font-size: 2em;
+    text-shadow: 3px 3px black;
+}
+
+.About-content p{
+
+    font-size: large;
+    color: black;
+}
+
+.Main-Container{
+    
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }

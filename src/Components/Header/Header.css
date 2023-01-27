@@ -1,0 +1,31 @@
+.Header-Section{
+
+    /* From https://css.glass */
+/* From https://css.glass */
+    background: rgba(212, 199, 199, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    z-index: 2;
+
+    height: 80px;
+
+
+
+ 
+}
+
+
+.nav-link{
+
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.nav-link:hover{
+
+    color: blanchedalmond;
+    
+}
